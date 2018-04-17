@@ -1,4 +1,4 @@
-package day1;
+package day1ClassAndOject;
 
 public class MarsApplication {
     public static void main(String[] args) {
