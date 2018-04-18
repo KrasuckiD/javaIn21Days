@@ -3,12 +3,13 @@ package day2Instructions;
 public class Exercise {
     public static void main(String[] args) {
         float investment = 14000;
-        investment *= 0.40;
-        investment += investment;
+        System.out.println("Start= " + investment);
+        investment = investment + (investment * .4f);
+        System.out.println("-40%= " + investment);
         investment -=1500;
-        investment *= 0.12;
-        investment += investment;
-        System.out.println(investment);
+        System.out.println("-1500= " + investment);
+        investment = investment - (investment * .12f);
+        System.out.println("-12%= " + investment);
 
 
 
@@ -16,6 +17,7 @@ public class Exercise {
      int y = 2;
      float result = x / y;
      float rest = x % y;
+        System.out.println();
         System.out.println(x + " divided by " + y);
         System.out.println("\nWtnik\tReszta");
         System.out.println(result + "    \t" + rest );
