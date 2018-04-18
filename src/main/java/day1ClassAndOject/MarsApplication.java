@@ -7,6 +7,11 @@ public class MarsApplication {
         spirit.speed = 2;
         spirit.temperature = -60;
 
+        MarsRobot opportunity = new MarsRobot();
+        opportunity.status = "exploration";
+        opportunity.speed = 3;
+        opportunity.temperature = -60;
+
         spirit.showAttributes();
         System.out.println();
         System.out.println("Speed increase 3");
